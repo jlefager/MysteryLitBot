@@ -1,11 +1,8 @@
-1860s Gentleman
+Mystery Lit Bot
 ==============
->"One should not be simply ill-dressed, but simply well-dressed."
+>"It is obvious, therefore, that I cannot do better than get away for the few days which remain before the police are at liberty to act"
 
->"At any rate Nature knows best, and no man need be ashamed of showing his manhood in the hair of his face."
-
-
-A simple Twitter bot written in python that tweets 1860's advice from ["The Gentlemen's Book of Etiquette and Manual of Politeness"](http://www.gutenberg.org/files/39293/39293-h/39293-h.htm).
+A fork of the ["The 1860s Gentlemen Bot"](https://github.com/katelynsills/1860sgentleman).  
 
 How to Make Your Own
 ---------------
@@ -17,7 +14,7 @@ After you've picked your source, download the text file. Eventually, we will be 
 
 Edit the code
 ----------
-You'll need to change 'gentsguide.txt' in tweetadvice.py to whatever your source file is named. 
+You'll need to change '*.txt' in tweetadvice.py to whatever your source file is named. 
 
 Create a twitter account and app.
 ------
