@@ -2,11 +2,12 @@ import twitter
 import random
 import os
 import re
+import urllib2
 
 #open the source file
 
-guide = open('holmes.txt', 'r').read()
-
+#guide = open('holmes.txt', 'r').read()
+guide = urllib2.urlopen('https://www.gutenberg.org/cache/epub/244/pg244.txt', 'r').read()
 #divide the source file up into tweetable sentences
 guide = re.split('\.|\?', guide)
 
