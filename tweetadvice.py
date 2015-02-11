@@ -5,7 +5,7 @@ import re
 
 #open the source file
 
-guide = open('gentsguide.txt', 'r').read()
+guide = open('holmes.txt', 'r').read()
 
 #divide the source file up into tweetable sentences
 guide = re.split('\.|\?', guide)
