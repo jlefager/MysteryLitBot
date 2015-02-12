@@ -9,7 +9,6 @@ __pycache__/
 .env
 Procfile
 .Python
-env/
 build/
 develop-eggs/
 dist/
