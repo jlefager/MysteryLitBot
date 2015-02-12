@@ -3,6 +3,8 @@
 # C extensions
 *.so
 
+# Keys
+*.env
 
 # Packages
 *.egg
@@ -16,7 +18,6 @@ var
 sdist
 develop-eggs
 .installed.cfg
-.env
 lib
 lib64
 __pycache__
